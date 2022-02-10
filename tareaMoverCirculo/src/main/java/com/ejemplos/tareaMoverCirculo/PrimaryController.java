@@ -20,7 +20,7 @@ public class PrimaryController implements Initializable {
 	@FXML
 	private Circle circle;
 
-	private void moverAbajo(ActionEvent event) {
+	/*private void moverAbajo(ActionEvent event) {
 
 		if (circle.getLayoutY() != 420) {
 			Timeline timeLine = new Timeline();
@@ -33,7 +33,7 @@ public class PrimaryController implements Initializable {
 			timeLine.play();
 		}
 
-	}
+	}*/
 
 	@FXML
 	private void moverArriba(ActionEvent event) {
