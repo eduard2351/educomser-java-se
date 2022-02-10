@@ -20,21 +20,6 @@ public class PrimaryController implements Initializable {
 	@FXML
 	private Circle circle;
 
-	/*private void moverAbajo(ActionEvent event) {
-
-		if (circle.getLayoutY() != 420) {
-			Timeline timeLine = new Timeline();
-
-			timeLine.getKeyFrames()
-					.add(new KeyFrame(Duration.millis(1530), new KeyValue(circle.layoutYProperty(), 200)));
-			timeLine.getKeyFrames()
-					.add(new KeyFrame(Duration.millis(2070), new KeyValue(circle.layoutYProperty(), 420)));
-
-			timeLine.play();
-		}
-
-	}*/
-
 	@FXML
 	private void moverArriba(ActionEvent event) {
 		if (circle.getLayoutY() != 30) {
