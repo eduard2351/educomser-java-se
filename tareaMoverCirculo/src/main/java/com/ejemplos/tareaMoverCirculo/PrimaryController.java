@@ -32,7 +32,7 @@ public class PrimaryController implements Initializable {
 		timeLine1.getKeyFrames().add(new KeyFrame(Duration.millis(2070), new KeyValue(circle.layoutYProperty(), 25)));
 
 		timeLine1.getKeyFrames().add(new KeyFrame(Duration.millis(2070), new KeyValue(circle.layoutXProperty(), 120)));
-		///////////
+
 		Timeline timeLine2 = new Timeline();
 		timeLine2.getKeyFrames().add(new KeyFrame(Duration.millis(1530), new KeyValue(circle.layoutYProperty(), 200)));
 		timeLine2.getKeyFrames().add(new KeyFrame(Duration.millis(2070), new KeyValue(circle.layoutYProperty(), 420)));
